@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>個人生活・在庫・健康・ノートPWA</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <main data-product-root="personal-life-inventory-health-notes-pwa" class="shell">
+    <header class="topbar">
+      <div>
+        <h1>個人生活・在庫・健康・ノートPWA</h1>
+        <p>生活在庫、健康メモ、個人ノートを軽量PWAとして束ねる</p>
+      </div>
+      <button id="run-review" type="button">レビュー実行</button>
+    </header>
+    <section class="workspace">
+      <div class="panel">
+        <h2>代表シナリオ</h2>
+        <ul id="scenario-list"></ul>
+      </div>
+      <div class="panel">
+        <h2>次アクション</h2>
+        <p id="next-action">在庫、体調、メモを1日の確認リストにまとめる</p>
+        <output id="result">未実行</output>
+      </div>
+    </section>
+  </main>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
