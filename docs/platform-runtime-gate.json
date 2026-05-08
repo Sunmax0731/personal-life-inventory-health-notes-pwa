@@ -1,0 +1,13 @@
+{
+  "product": "personal-life-inventory-health-notes-pwa",
+  "title": "個人生活・在庫・健康・ノートPWA",
+  "domain": "WebApp",
+  "ideaNo": 1,
+  "platformType": "browser-web",
+  "expectedPublicTarget": "GitHub Pages / GitHub Release",
+  "browser": {
+    "evidence": "dist/web-smoke-result.json"
+  },
+  "android": null,
+  "evidence": "dist/platform-runtime-gate-result.json"
+}
